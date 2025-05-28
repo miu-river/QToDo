@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ImGui">
+      <UniqueIdentifier>{9f32f69a-8d83-4254-9bef-56a2fa95f45d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGui\backends">
+      <UniqueIdentifier>{9370145a-1642-4c0f-bdb3-ed3c66560030}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="文档">
+      <UniqueIdentifier>{f5b00f9d-cee1-4743-86ca-51a740d6c11c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\TodoApp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\TodoItem.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\TodoList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\imconfig.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\imgui.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\imgui_internal.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\backends\imgui_impl_dx11.h">
+      <Filter>ImGui\backends</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\backends\imgui_impl_win32.h">
+      <Filter>ImGui\backends</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\imgui\imgui.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\imgui\imgui_demo.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\imgui\imgui_draw.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\imgui\imgui_tables.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\imgui\imgui_widgets.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\imgui\backends\imgui_impl_dx11.cpp">
+      <Filter>ImGui\backends</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\imgui\backends\imgui_impl_win32.cpp">
+      <Filter>ImGui\backends</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md">
+      <Filter>文档</Filter>
+    </None>
+  </ItemGroup>
+</Project>
